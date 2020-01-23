@@ -1,0 +1,211 @@
+
+#kontener
+{
+    background-color: #483D8B;
+    width: auto;
+    margin: auto;
+    height: 160px;
+}
+
+img.logo
+{
+        position: absolute;
+}
+
+#gorna_czesc
+{
+    background-image: url('../piec_logo1.gif');
+    width: 118px;
+    height: 155px;
+    }
+
+#kontakt_box
+{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    font-family: "Tahoma", Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #FFFAFA;
+    /*line-height: 125%*/
+}
+
+a
+{
+    color: #FFFAFA;
+}
+a:hover
+{
+    color: silver;
+}
+
+#gorne_menu
+{
+    position: absolute;
+    left: 150px;
+    margin-top: 55px;
+    
+}
+#wlasciwe_gorne_menu a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+        width: 95px;
+	
+}
+#wlasciwe_gorne_menu a:visited
+{
+	color: #FFFAFA;
+        width: 90px;
+        
+}
+#wlasciwe_gorne_menu a:link
+{
+	color: white;
+}
+#wlasciwe_gorne_menu li
+{
+	list-style: none;
+}
+#wlasciwe_gorne_menu > li
+{
+	float: left;
+	
+}
+#wlasciwe_gorne_menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+#wlasciwe_gorne_menu > li > a
+{
+	border: 1px solid black;
+	padding: 10px;
+        width: 130px;
+	background: linear-gradient(to bottom, rgba(73,155,234,0.8) 0%, rgba(18,79,140,0.8) 100%);
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-family: Stoke, sans;
+        
+	-pie-background: linear-gradient(to bottom, rgba(73,155,234,0.8) 0%, rgba(18,79,140,0.8) 100%);
+	behavior: url("PIE.htc");	
+}
+#wlasciwe_gorne_menu > li > a:hover
+{
+	background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(18,79,140,1) 100%);	
+	color: #2e3c2e;
+	cursor: pointer;
+	-pie-background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(18,79,140,1) 100%);	
+	behavior: url("PIE.htc");
+}
+#wlasciwe_gorne_menu > li:first-child  > a
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+#wlasciwe_gorne_menu > li:last-child  > a
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-right: 1px solid #ccc;
+}
+#wlasciwe_gorne_menu > li ul li a
+{
+	padding: 10px 30px;
+	border-bottom: 1px solid #ccc;
+}
+#wlasciwe_gorne_menu li ul li a:hover
+{
+	color: #2e3c2e;
+	cursor: pointer;
+	background: linear-gradient(to bottom, rgba(73,155,234,0.9) 0%, rgba(18,79,140,0.9) 100%);	
+	-pie-background: linear-gradient(to bottom, rgba(73,155,234,0.9) 0%, rgba(18,79,140,0.9) 100%);	
+	behavior: url("PIE.htc");
+        width: 95px;
+}
+#wlasciwe_gorne_menu > li ul
+{
+	position: absolute;
+	background: linear-gradient(to bottom, rgba(73,155,234,0.8) 0%, rgba(18,79,140,0.8) 100%);	
+	border-left: 1px solid #ccc;
+	font-size: 12px;
+	opacity: 0;
+	transition: 0.5s;
+	-pie-background: linear-gradient(to bottom, rgba(73,155,234,0.8) 0%, rgba(18,79,140,0.8) 100%);	
+	behavior: url("PIE.htc");
+}
+#wlasciwe_gorne_menu > li:hover ul
+{
+	opacity: 1;
+}
+
+#tekst
+{
+    margin-top: 5px;
+    background-image: url('../tlo_strony.jpg');
+    text-align: justify;
+    color: #FFFAFA;
+    padding: 10px 50px;
+    line-height: 140%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+#dolna_czesc_strony
+{
+    width: auto;
+    background-color: #483D8B;
+    height: 350px;
+}
+#naglowek_zamowienie
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Calibri, Tahoma, Arial;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#form_zamowienie
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+#text_zamowienie
+{
+    color: #FFFAFA;
+}
+
+
+.submit_button
+{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 15;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.submit_button:hover
+{
+    color: silver;
+}
+.form
+{
+    margin-top: 5px;
+    
+}
+#zamowienie_info
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
